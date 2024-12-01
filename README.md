@@ -33,6 +33,30 @@ O grafo de fluxo do código foi criado com base nos pontos de execução do mét
 
 ![Grafo de Fluxo](src/images/grafo_fluxo.png)
 
+## Complexidade Ciclomática
+
+A complexidade ciclomática do código foi calculada com base na seguinte fórmula:
+
+\[M = E - N + 2P\]
+
+Onde:
+- **E** = número de arestas (fluxos de controle)
+- **N** = número de nós (pontos de decisão ou blocos de código)
+- **P** = número de componentes conexos (normalmente 1)
+
+### Cálculo:
+- **E = 6** (Existem 6 fluxos de controle no grafo de fluxo)
+- **N = 5** (Existem 5 pontos de decisão no código)
+- **P = 1** (O código possui um único componente conexo)
+
+A complexidade ciclomática é:
+\[M = 6 - 5 + 2(1) = 3\]
+
+Portanto, a complexidade ciclomática do código é **3**, indicando que existem **3 caminhos independentes** no fluxo do programa.
+
+
+
+
 
 
   
