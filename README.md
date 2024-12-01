@@ -31,7 +31,7 @@ Este repositório contém um exemplo de código Java para realizar login em um b
 
 O grafo de fluxo do código foi criado com base nos pontos de execução do método `verificarUsuario` da classe `User`. Os pontos foram numerados e interligados conforme os fluxos possíveis de execução.
 
-![Grafo de Fluxo](src/imagens/grafo_fluxo.png)
+![Grafo de Fluxo](src/images/grafo_fluxo.png)
 
 
 
