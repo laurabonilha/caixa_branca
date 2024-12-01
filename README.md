@@ -24,3 +24,15 @@ Este repositório contém um exemplo de código Java para realizar login em um b
 - Ajustar a string de conexão para:
   ```java
   String url = "jdbc:mysql://127.0.0.1:3306/test?user=lopes&password=123";
+
+# Plano de Teste
+
+## Grafo de Fluxo
+
+O grafo de fluxo do código foi criado com base nos pontos de execução do método `verificarUsuario` da classe `User`. Os pontos foram numerados e interligados conforme os fluxos possíveis de execução.
+
+![Grafo de Fluxo](images/grafo_fluxo.png)
+
+
+
+  
